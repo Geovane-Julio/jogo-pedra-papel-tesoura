@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+body h1{
+    text-align: center;
+    color: white;
+    margin-top: 5vw;
+}
+.container{
+    background-color: blue;
+    width: 30vw;
+    height: 30vw;
+    justify-content: center;
+    border-radius: 3vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: solid black;
+    margin-top: 2vw;
+}
+
+.choices {
+    padding: 3vw;
+    text-align: center;
+    padding-top: 5vw;
+}
+
+.choices img{
+    width: 20vw;
+    height: 10vw;
+}
+
+.choices button{
+border-radius: 10vw;
+width: 5vw;
+height: 5vw;
+margin: 1vw;
+
+}
+
+#mensagem{
+    color: white;
+    text-align: center;
+    padding-top: 1.5vw;
+    font-family: arial;
+    font-size: 1.5vw;
+}
